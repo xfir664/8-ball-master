@@ -1,13 +1,9 @@
 @use "mixins";
 @use "@/app/scss/var.scss" as var;
 
-$font-base: "PT Sans";
-$font-primary: "PT Sans";
-$font-secondary: "PT Sans";
+$font-base: "Anime Ace";
 
-$font-base-src: "./fonts/PTSans/ptsans-regular";
-$font-primary-src: "./fonts/PTSans/ptsans-bold";
-$font-secondary-src: "./fonts/PTSans/ptsans-bold";
+$font-base-src: "/fonts/Anime Ace/anime-ace";
 
 @include mixins.font-face(
   $font-base,
@@ -19,12 +15,4 @@ $font-secondary-src: "./fonts/PTSans/ptsans-bold";
 
 .font-base {
   font-family: $font-base, "Arial", "sans-serif";
-}
-
-.font-primary {
-  font-family: $font-primary, "Arial", "sans-serif";
-}
-
-.font-secondary {
-  font-family: $font-secondary, "Arial", "sans-serif";
 }
